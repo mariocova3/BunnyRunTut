@@ -25,4 +25,9 @@ public class BunnyController : MonoBehaviour
 		
 		myAnim.SetFloat("vVelocity", myRigidBody.velocity.y);
 	}
+	
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+		Application.LoadLevel(Application.loadedLevel);
+	}
 }
