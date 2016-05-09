@@ -188,7 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 448292, guid: 8a068be6a0171426f8af0abd605b23e6, type: 2}
   spawnRate: 1
-  randomDelay: 3
+  randomDelay: 1
 --- !u!4 &68249485
 Transform:
   m_ObjectHideFlags: 0
